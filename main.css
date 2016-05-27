@@ -56,29 +56,52 @@ img {
 .box {
 	color:#83BAE2;
 	display: inline-block;
-	border:2px solid #83BAE2;
+	border-left:2px solid #83BAE2;
+	border-bottom:2px solid #83BAE2;
 	box-sizing: border-box;
+	font-size: 20px;
 }
 
 .arrow {
-	width:62px;
+	width:66px;
 	height:40px;
+	margin-right:-4px;
 }
 .heart {
-	width:62px;
+	width:66px;
 	height:40px;
+	margin-right:-4px;
 }
 .size {
-	width:62px;
+	width:66px;
 	height:40px;
+	margin-right:-4px;
 }
 .color {
-	width:62px;
+	width:66px;
 	height:40px;
+	margin-right:-4px;
 }
 .cart {
-	width:62px;	
+	width:68px;	
 	height:40px;
+	margin-left: -4px;
+	border-right: 2px solid #83BAE2;
 }
 
-.fa { 
+.arrow {
+	text-align: center;
+}
+
+.heart {	
+	text-align: center;}
+
+.size {
+	text-align: center;
+}
+.color {
+	text-align: center;
+}
+.cart {
+	text-align: center;
+}
