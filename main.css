@@ -8,6 +8,24 @@ p{
 	display: inline-block;
 	}
 
+//.pink.arrow {
+	position: absolute;
+	top:10px;
+	left:600px;
+	color: #83BAE2;
+	border-left: 2px solid #83BAE2;
+	border-bottom: 2px solid #83BAE2;
+}
+
+.fa-reply {
+	position: absolute;
+	top:10px;
+	left:318px;
+	color: #83BAE2;
+	border-left: 2px solid #83BAE2;
+	border-bottom: 2px solid #83BAE2;
+}
+
 .title {
 	text-align: left;
 	padding-left: 3px;
@@ -30,6 +48,7 @@ p{
 
 .maincontainer {
 	width:100%;
+	margin-bottom: -5px;
 }
 
 .shirt {
@@ -62,8 +81,7 @@ img {
 
 .midcontainer {
 	width: 329px;
-	display: inline-block;
-}
+	display: inline-block;}
 
 .box {
 	color:#83BAE2;
@@ -72,6 +90,7 @@ img {
 	border-bottom:2px solid #83BAE2;
 	box-sizing: border-box;
 	font-size: 20px;
+	padding-top: 5px;
 }
 
 .arrow {
@@ -178,32 +197,89 @@ margin-top: 0px;
 
 }
 
+.color-box-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.color-box-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border:2px solid #83BAE2;
+	color: #83BAE2;
+    min-width: 10px;
+  	text-align:center;
+    z-index: 1;
+    cursor: pointer;
+    align:center;
+}
+
+.color-box-dropdown:hover .color-box-dropdown-content {
+    display: block;
+    cursor: pointer;
+    bottom: 100%;
+    text-align:center;
+    width: 64px;
+}
+
+.boxshadow {
+  height:5px;
+  width:5px;
+  margin:10px;
+  padding-left:0px;
+  padding-right:5px;
+  display:inline-block;
+
+}
+
+.color-box-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.color-box-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border:2px solid #83BAE2;
+	color: #83BAE2;
+    min-width: 10px;
+  	text-align:center;
+    z-index: 1;
+    cursor: pointer;
+    align:center;
+}
+
+.size-box-dropdown:hover .size-box-dropdown-content {
+    display: block;
+    cursor: pointer;
+    bottom: 100%;
+    text-align:center;
+    width: 64px;
+}
+
 /*.blue {
   background-color:#83BAE2;
-  height:90px;
-  width:90px;
+  height:20px;
+  width:20px;
 }
 
 .pink {
-  height:90px;
-  width:90px;
+  height:20px;
+  width:20px;
   background-color:#D482AA
 }
 
 .orange {
-  height:90px;
-  width:90px;
+  height:20px;
+  width:20px;
   background-color:#DBB07C
 }
 
 .green {
-  height:90px;
-  width:90px;
+  height:20px;
+  width:20px;
   background-color:#8BB992
 }*/
-
-
-
-
-
 
