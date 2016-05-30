@@ -165,7 +165,42 @@ img {
 .fa {padding-top: 0px;
 padding-bottom: 0px;
 margin-bottom: 0px;
-margin-top: 0px;}
+margin-top: 0px;
+}
+
+
+.boxshadow {
+  height:90px;
+  width:90px;
+  margin:10px;
+  display:inline-block;
+  
+
+}
+
+/*.blue {
+  background-color:#83BAE2;
+  height:90px;
+  width:90px;
+}
+
+.pink {
+  height:90px;
+  width:90px;
+  background-color:#D482AA
+}
+
+.orange {
+  height:90px;
+  width:90px;
+  background-color:#DBB07C
+}
+
+.green {
+  height:90px;
+  width:90px;
+  background-color:#8BB992
+}*/
 
 
 
