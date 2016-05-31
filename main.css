@@ -283,3 +283,8 @@ margin-top: 0px;
   background-color:#8BB992
 }*/
 
+@media only screen and (max-width: 990px) {
+    .column {
+    	display: block;
+    }
+
