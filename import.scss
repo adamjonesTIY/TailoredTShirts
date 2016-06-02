@@ -1,0 +1,19 @@
+$primary-color:#83BAE2
+$primary-font-family: 'open sans', sans-serif;
+
+
+body {
+  color:$primary-color;
+  font-family: $primary-font-family
+}
+/*the above is my variable in SCSS/Sass.*/
+
+.title {
+	text-align: left;
+	padding-left: 3px;
+	color: #83BAE2;
+	display: inline-block;
+	margin-top: 20px - 15px;
+}
+/*margin-top of .title is my Operator. Not very functional, but still*/
+/*took the above Variable and Operator and made them an Import*/

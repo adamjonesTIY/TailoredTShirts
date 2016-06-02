@@ -1,0 +1,287 @@
+
+@import 'import';
+
+/*correct way to import, but imported file needs to start with an underscore*/
+
+p{
+	width: 48%;
+	display: inline-block;
+	}
+
+//.pink.arrow {
+	position: absolute;
+	top:10px;
+	left:600px;
+	color: #83BAE2;
+	border-left: 2px solid #83BAE2;
+	border-bottom: 2px solid #83BAE2;
+}
+
+.fa-reply {
+	position: absolute;
+	top:10px;
+	left:318px;
+	color: #83BAE2;
+	border-left: 2px solid #83BAE2;
+	border-bottom: 2px solid #83BAE2;
+}
+
+
+
+
+.bottomcontainer {
+	width: 329px;
+	display: inline-block;
+	size: 100%;
+
+	.price {
+	text-align: right;
+	color: #83BAE2;
+	display: inline-block;
+	margin-top: 5px;
+}
+}
+/*is this a correct way to nest? Jake says yes*/
+
+.maincontainer {
+	width:100%;
+	margin-bottom: -5px;
+}
+
+.shirt {
+	width:32%;
+	display: inline-block;
+	border:2px solid #83BAE2;
+	color: #83BAE2;
+}
+
+.blue {
+	color: #83BAE2;
+	width:325px;
+}
+
+.pink {
+	width:325px;
+}
+
+.orange {
+	width:325px;
+}
+
+img {
+	height: 200px;
+	width: 200px;
+	margin: auto;
+	display: block;
+}
+
+
+.midcontainer {
+	width: 329px;
+	display: inline-block;}
+
+.box {
+	color:#83BAE2;
+	display: inline-block;
+	border-left:2px solid #83BAE2;
+	border-bottom:2px solid #83BAE2;
+	box-sizing: border-box;
+	font-size: 20px;
+	padding-top: 5px;
+}
+
+.arrow {
+	width:66px;
+	height:40px;
+	margin-right:-4px;
+	text-align: center;
+}
+
+.arrow:hover {
+	background-color: #83BAE2;
+	color: white;	
+}
+
+.heart {
+	width:66px;
+	height:40px;
+	margin-right:-4px;
+	text-align: center;
+}
+.heart:hover {
+	background-color: #83BAE2;
+	color: white;	
+}
+.size {
+	width:66px;
+	height:40px;
+	margin-right:-4px;
+	text-align: center;
+}
+.size:hover {
+	background-color: #83BAE2;
+	color: white;	
+}
+.size.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content {
+
+}
+.color {
+	width:66px;
+	height:40px;
+	margin-right:-4px;
+	text-align: center;
+}
+.color:hover {
+	background-color: #83BAE2;
+	color: white;	
+}
+.cart {
+	width:68px;	
+	height:40px;
+	margin-left: -4px;
+	border-right: 2px solid #83BAE2;
+	text-align: center;
+}
+.cart:hover {
+	background-color: #83BAE2;
+	color: white;	
+}
+
+
+.size-box-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.size-box-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border:2px solid #83BAE2;
+	color: #83BAE2;
+    min-width: 10px;
+  	text-align:center;
+    z-index: 1;
+    cursor: pointer;
+    align:center;
+}
+
+.size-box-dropdown:hover .size-box-dropdown-content {
+    display: block;
+    cursor: pointer;
+    bottom: 100%;
+    text-align:center;
+    width: 64px;
+}
+
+.fa {padding-top: 0px;
+padding-bottom: 0px;
+margin-bottom: 0px;
+margin-top: 0px;
+}
+
+
+.boxshadow {
+  height:90px;
+  width:90px;
+  margin:10px;
+  display:inline-block;
+  
+
+}
+
+.color-box-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.color-box-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border:2px solid #83BAE2;
+	color: #83BAE2;
+    min-width: 10px;
+  	text-align:center;
+    z-index: 1;
+    cursor: pointer;
+    align:center;
+}
+
+.color-box-dropdown:hover .color-box-dropdown-content {
+    display: block;
+    cursor: pointer;
+    bottom: 100%;
+    text-align:center;
+    width: 64px;
+}
+
+.boxshadow {
+  height:5px;
+  width:5px;
+  margin:10px;
+  padding-left:0px;
+  padding-right:5px;
+  display:inline-block;
+
+}
+
+.color-box-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.color-box-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border:2px solid #83BAE2;
+	color: #83BAE2;
+    min-width: 10px;
+  	text-align:center;
+    z-index: 1;
+    cursor: pointer;
+    align:center;
+}
+
+.size-box-dropdown:hover .size-box-dropdown-content {
+    display: block;
+    cursor: pointer;
+    bottom: 100%;
+    text-align:center;
+    width: 64px;
+}
+
+/*.blue {
+  background-color:#83BAE2;
+  height:20px;
+  width:20px;
+}
+
+.pink {
+  height:20px;
+  width:20px;
+  background-color:#D482AA
+}
+
+.orange {
+  height:20px;
+  width:20px;
+  background-color:#DBB07C
+}
+
+.green {
+  height:20px;
+  width:20px;
+  background-color:#8BB992
+}*/
+
+@media only screen and (max-width: 990px) {
+    .column {
+    	display: block;
+    }
+
