@@ -1,165 +1,156 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Tailored T-Shirts
-	</title>	
-		<link type="text/css" rel="stylesheet" href="main.css">
-		<link type="text/css" rel="stylesheet" href="main.css">
+	<head>
+		<title>Tailored T-Shirts
+		</title>
+		
 		<script src="https://use.fontawesome.com/ea5eeb1623.js"></script>
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<!--Bootstrap CDN-->
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-</head>
-<body>
-	<!--working only blue shirt part now-->
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<!--Bootstrap CDN-->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link type="text/css" rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<!--working only blue shirt part now-->
 		<form>
 			<div class="row">
 				<div class="col-lg-1 blank left"></div>
-
-				<div class="col-lg-3 blue shirt">
-					<img src="images/blue.png">
-				</div>
-					<div class="col-lg-3 blue shirt">
-					<img src="images/blue.png">
-				</div>
-					<div class="col-lg-3 blue shirt">
-					<img src="images/blue.png">
-				</div>
-
-
-
-					<!--<div class="col-lg-12 icons">
-						<div class="arrows box">arrows</div>
-						<div class="heart box">heart</div>
-						<div class="size box">size</div>
-						<div class="colors box">colors</div>
-						<div class="cart box">cart</div>
-
-
-					</div>
-						<div class="col-lg-6 name">Shirt Name</div>
-						<div class="col-lg-6 price">Price</div>
-				</div>
+				
+				<div class="col-lg-3 shirt">
 					
-
-
-
-
-
-
-
-					<!--<i class="fa fa-reply" aria-hidden="true"></i>-->
-				<!--<div class="col-lg-3 pink shirt">
-					Pink Shirt
+					<div class="tshirtContainer clearfix">
+						<img src="images/blue.png">
+						<div class="col-lg-12 icons">
+							<div class="arrows box">arrows</div>
+							<div class="heart box">heart</div>
+							<div class="size box">size</div>
+							<div class="colors box">colors</div>
+							<div class="cart box">cart</div>
+						</div>
+						
+						<div class="col-lg-6 name"><p>Shirt Name</p></div>
+						<div class="col-lg-6 price"><p>Price</p></div>
+					</div>
+					
 				</div>
 				
-				<div class="col-lg-3 orange shirt">
-					Orange Shirt
+				
+				<div class="col-lg-3 blue shirt">
+					<!--<img src="images/blue.png">-->
 				</div>
-
-				<div class="col-lg-1 blank right">
-				</div>-->
-
-
-				
-				
+				<div class="col-lg-3 blue shirt">
+					<!--<img src="images/blue.png">-->
+				</div>
+				<!--<div class="col-lg-12 icons">
+							<div class="arrows box">arrows</div>
+							<div class="heart box">heart</div>
+							<div class="size box">size</div>
+							<div class="colors box">colors</div>
+							<div class="cart box">cart</div>
+				</div>
+					<div class="col-lg-6 name">Shirt Name</div>
+					<div class="col-lg-6 price">Price</div>
 			</div>
+			
+			<!--<i class="fa fa-reply" aria-hidden="true"></i>-->
+			<!--<div class="col-lg-3 pink shirt">
+						Pink Shirt
+			</div>
+			
+			<div class="col-lg-3 orange shirt">
+						Orange Shirt
+			</div>
+			<div class="col-lg-1 blank right">
+			</div>-->
+			
+			
 			<!--<div class="midcontainer">
-				<div class="arrow box"><i class="fa fa-exchange" aria-hidden="true"></i></div>
-				<div class="heart box"><i class="fa fa-heart" aria-hidden="true"></i></div>
-				<div class="size-box-dropdown">
-					<div class="size box">XL</div>
-					<div class="size-box-dropdown-content">
-						<p><i class="fa fa-heart" aria-hidden="true"></i></p>
-						<p><i class="fa fa-eur" aria-hidden="true"></i></p>
-						<p><i class="fa fa-space-shuttle" aria-hidden="true"></i></p>
-						<p><i class="fa fa-wifi" aria-hidden="true"></i></p>
-					</div>
-				</div>
-				
-				<div class="color-box-dropdown">
-					<div class="color box">color</div>
-					<div class="color-box-dropdown-content">
-						<p><i class="fa fa-heart" aria-hidden="true"></i></p>
-						<p><i class="fa fa-eur" aria-hidden="true"></i></p>
-						<p><i class="fa fa-space-shuttle" aria-hidden="true"></i></p>
-						<p><i class="fa fa-wifi" aria-hidden="true"></i></p>
-					</div>
-				</div>
-				<div  id="blueCart" onClick="addToCart(29.00, 'blue')"  class="subbox"><i class="fa fa-shopping-cart"></i></div>
+						<div class="arrow box"><i class="fa fa-exchange" aria-hidden="true"></i></div>
+						<div class="heart box"><i class="fa fa-heart" aria-hidden="true"></i></div>
+						<div class="size-box-dropdown">
+									<div class="size box">XL</div>
+									<div class="size-box-dropdown-content">
+												<p><i class="fa fa-heart" aria-hidden="true"></i></p>
+												<p><i class="fa fa-eur" aria-hidden="true"></i></p>
+												<p><i class="fa fa-space-shuttle" aria-hidden="true"></i></p>
+												<p><i class="fa fa-wifi" aria-hidden="true"></i></p>
+									</div>
+						</div>
+						
+						<div class="color-box-dropdown">
+									<div class="color box">color</div>
+									<div class="color-box-dropdown-content">
+												<p><i class="fa fa-heart" aria-hidden="true"></i></p>
+												<p><i class="fa fa-eur" aria-hidden="true"></i></p>
+												<p><i class="fa fa-space-shuttle" aria-hidden="true"></i></p>
+												<p><i class="fa fa-wifi" aria-hidden="true"></i></p>
+									</div>
+						</div>
+						<div  id="blueCart" onClick="addToCart(29.00, 'blue')"  class="subbox"><i class="fa fa-shopping-cart"></i></div>
 			</div>
 			<div class="midcontainer">
-				<div class="arrow box"><i class="fa fa-exchange" aria-hidden="true"></i></div>
-				<div class="heart box"><i class="fa fa-heart" aria-hidden="true"></i></div>
-				<div class="size-box-dropdown">
-					<div class="size box">XL</div>
-					<div class="size-box-dropdown-content">
-						<p><i class="fa fa-heart" aria-hidden="true"></i></p>
-						<p><i class="fa fa-eur" aria-hidden="true"></i></p>
-						<p><i class="fa fa-space-shuttle" aria-hidden="true"></i></p>
-						<p><i class="fa fa-wifi" aria-hidden="true"></i></p>
-					</div>
-				</div>
-				<div class="color-box-dropdown">
-					<div class="color box">color</div>
-					<div class="color-box-dropdown-content">
-						<p><i class="fa fa-heart" aria-hidden="true"></i></p>
-						<p><i class="fa fa-eur" aria-hidden="true"></i></p>
-						<p><i class="fa fa-space-shuttle" aria-hidden="true"></i></p>
-						<p><i class="fa fa-wifi" aria-hidden="true"></i></p>
-					</div>
-				</div>
-				<div  id="pinkCart" onClick="addToCart(19.00, 'pink')"  class="subbox"><i class="fa fa-shopping-cart"></i></div>
+						<div class="arrow box"><i class="fa fa-exchange" aria-hidden="true"></i></div>
+						<div class="heart box"><i class="fa fa-heart" aria-hidden="true"></i></div>
+						<div class="size-box-dropdown">
+									<div class="size box">XL</div>
+									<div class="size-box-dropdown-content">
+												<p><i class="fa fa-heart" aria-hidden="true"></i></p>
+												<p><i class="fa fa-eur" aria-hidden="true"></i></p>
+												<p><i class="fa fa-space-shuttle" aria-hidden="true"></i></p>
+												<p><i class="fa fa-wifi" aria-hidden="true"></i></p>
+									</div>
+						</div>
+						<div class="color-box-dropdown">
+									<div class="color box">color</div>
+									<div class="color-box-dropdown-content">
+												<p><i class="fa fa-heart" aria-hidden="true"></i></p>
+												<p><i class="fa fa-eur" aria-hidden="true"></i></p>
+												<p><i class="fa fa-space-shuttle" aria-hidden="true"></i></p>
+												<p><i class="fa fa-wifi" aria-hidden="true"></i></p>
+									</div>
+						</div>
+						<div  id="pinkCart" onClick="addToCart(19.00, 'pink')"  class="subbox"><i class="fa fa-shopping-cart"></i></div>
 			</div>
 			<div class="midcontainer">
-				<div class="arrow box"><i class="fa fa-exchange" aria-hidden="true"></i></div>
-				<div class="heart box"><i class="fa fa-heart" aria-hidden="true"></i></div>
-				<div class="size-box-dropdown">
-					<div class="size box">XL</div>
-					<div class="size-box-dropdown-content">
-						<p><i class="fa fa-heart" aria-hidden="true"></i></p>
-						<p><i class="fa fa-eur" aria-hidden="true"></i></p>
-						<p><i class="fa fa-space-shuttle" aria-hidden="true"></i></p>
-						<p><i class="fa fa-wifi" aria-hidden="true"></i></p>
-					</div>
-				</div>
-				<div class="color-box-dropdown">
-					<div class="color box">color</div>
-					<div class="color-box-dropdown-content">
-						<p><i class="fa fa-heart" aria-hidden="true"></i></p>
-						<p><i class="fa fa-eur" aria-hidden="true"></i></p>
-						<p><i class="fa fa-space-shuttle" aria-hidden="true"></i></p>
-						<p><i class="fa fa-wifi" aria-hidden="true"></i></p>
-					</div>
-				</div>
-				<div  id="orangeCart" onClick="addToCart(39.00, 'orange')"  class="subbox"><i class="fa fa-shopping-cart"></i></div>
+						<div class="arrow box"><i class="fa fa-exchange" aria-hidden="true"></i></div>
+						<div class="heart box"><i class="fa fa-heart" aria-hidden="true"></i></div>
+						<div class="size-box-dropdown">
+									<div class="size box">XL</div>
+									<div class="size-box-dropdown-content">
+												<p><i class="fa fa-heart" aria-hidden="true"></i></p>
+												<p><i class="fa fa-eur" aria-hidden="true"></i></p>
+												<p><i class="fa fa-space-shuttle" aria-hidden="true"></i></p>
+												<p><i class="fa fa-wifi" aria-hidden="true"></i></p>
+									</div>
+						</div>
+						<div class="color-box-dropdown">
+									<div class="color box">color</div>
+									<div class="color-box-dropdown-content">
+												<p><i class="fa fa-heart" aria-hidden="true"></i></p>
+												<p><i class="fa fa-eur" aria-hidden="true"></i></p>
+												<p><i class="fa fa-space-shuttle" aria-hidden="true"></i></p>
+												<p><i class="fa fa-wifi" aria-hidden="true"></i></p>
+									</div>
+						</div>
+						<div  id="orangeCart" onClick="addToCart(39.00, 'orange')"  class="subbox"><i class="fa fa-shopping-cart"></i></div>
 			</div>
 			<div class="bottomcontainer">
-				<p class="title">Save my trees</p>
-				<p class="price"><b>$29</b></p>
+						<p class="title">Save my trees</p>
+						<p class="price"><b>$29</b></p>
 			</div>
 			<div class="bottomcontainer">
-				<p class="title">Nature Lover</p>
-				<p class="price"><b>$19</b></p>
+						<p class="title">Nature Lover</p>
+						<p class="price"><b>$19</b></p>
 			</div>
 			<div class="bottomcontainer">
-				<p class="title">Forrest Walk</p>
-				<p class="price"><b>$39</b></p>
+						<p class="title">Forrest Walk</p>
+						<p class="price"><b>$39</b></p>
 			</div>-->
 		</form>
-
-<!--Holding Pink & Orange shirt information down here
-				<div class="pink shirt"></div>
-				<div class="orange shirt"></div>
-				
-
-
-
-
--->
-
-
-
-
+		<!--Holding Pink & Orange shirt information down here
+						<div class="pink shirt"></div>
+						<div class="orange shirt"></div>
+						
+		-->
 	</body>
 </html>

@@ -1,27 +1,80 @@
 
-@import 'import';
+body {
+  font-family: 'open sans', sans serif;
+}
+.blue {
+	//border:2px solid #83BAE2;
 
-/*correct way to import, but imported file needs to start with an underscore*/
-
-
-img {
-	height:50px;
-	width:50px;
 }
 
-p{
+.shirt {
+  width: 32%;
+  display: inline-block;
+  border: 2px solid #83BAE2;
+  color: #83BAE2; }
+  
+.tshirtContainer {
+	border:2px solid blue;
+}
+
+.icons {
+	//border:2px solid #83BAE2;
+	width: 100%;
+	}
+.box {
+	font-size:8px;
+	width: 15%;
+	display: inline-block;
+}
+img {
+	height: 50%;
+	width: 50%;
+	margin:auto;
+	display:block;
+}
+/*.heart {
+	font-size: 4px;
+	width: 20%;
+	display: inline-block;
+}
+.size {
+	font-size: 4px;
+}
+.colors {
+	font-size: 4px;
+}
+.cart {
+	font-size: 4px;
+}
+.price {
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*p{
 	width: 48%;
 	display: inline-block;
 	}
 
 //.pink.arrow {
-	//position: absolute;
-	//top:10px;
-	//left:600px;
-	//color: #83BAE2;
-	//border-left: 2px solid #83BAE2;
-	//border-bottom: 2px solid #83BAE2;
-//}
+	position: absolute;
+	top:10px;
+	left:600px;
+	color: #83BAE2;
+	border-left: 2px solid #83BAE2;
+	border-bottom: 2px solid #83BAE2;
+}
 
 .fa-reply {
 	position: absolute;
@@ -32,22 +85,25 @@ p{
 	border-bottom: 2px solid #83BAE2;
 }
 
-
-
-
-.bottomcontainer {
-	width: 329px;
+.title {
+	text-align: left;
+	padding-left: 3px;
+	color: #83BAE2;
 	display: inline-block;
-	size: 100%;
+	margin-top: 5px;
+}
 
-	.price {
+.price {
 	text-align: right;
 	color: #83BAE2;
 	display: inline-block;
 	margin-top: 5px;
 }
+.bottomcontainer {
+	width: 329px;
+	display: inline-block;
+	size: 100%;
 }
-/*is this a correct way to nest? Jake says yes*/
 
 .maincontainer {
 	width:100%;
@@ -145,17 +201,25 @@ img {
 	background-color: #83BAE2;
 	color: white;	
 }
-.cart {
+/*.cart {
+	width:68px;	
+	height:40px;
+	margin-left: -4px;
+	border-right: 2px solid #83BAE2;
+	text-align: center;
+}*/
+.cart:hover {
+	background-color: #83BAE2;
+	color: white;	
+}
+.subbox {
 	width:68px;	
 	height:40px;
 	margin-left: -4px;
 	border-right: 2px solid #83BAE2;
 	text-align: center;
 }
-.cart:hover {
-	background-color: #83BAE2;
-	color: white;	
-}
+
 
 
 .size-box-dropdown {
@@ -286,9 +350,4 @@ margin-top: 0px;
   background-color:#8BB992
 }*/
 
-@media only screen and (max-width: 990px) {
-    .column {
-    	display: block;
-    }
-}
 
