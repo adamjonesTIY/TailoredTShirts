@@ -3,7 +3,6 @@ body {
   color: #83BAE2;
   font-family: "open sans" sans-serif; }
 
-/*the above is my variable in SCSS/Sass. Jake says simple but good*/
 .title {
   text-align: left;
   padding-left: 3px;
@@ -13,119 +12,71 @@ body {
 
 /*margin-top of .title is my Operator. Not very functional, but still, Jake says good*/
 /*took the above Variable and Operator and made them an Import*/
-/*correct way to import, but imported file needs to start with an underscore*/
-p {
-  width: 48%;
-  display: inline-block; }
+body {
+  font-family: "open sans" sans-serif;
+  color: #83BAE2; }
 
-.fa-reply {
-  position: absolute;
-  top: 10px;
-  left: 318px;
-  color: #83BAE2;
-  border-left: 2px solid #83BAE2;
-  border-bottom: 2px solid #83BAE2; }
-
-.bottomcontainer {
-  width: 329px;
+.shirt {
+  width: 32%;
   display: inline-block;
-  size: 100%; }
-  .bottomcontainer .price {
-    text-align: right;
-    color: #83BAE2;
+  color: #83BAE2; }
+
+.tshirtContainer {
+  border: 2px solid #83BAE2; }
+
+.icons {
+  width: 100%;
+  display: inline-block;
+  margin: 0px auto;
+  border-top: 2px solid #83BAE2;
+  border-bottom: 2px solid #83BAE2; }
+  .icons .box {
+    font-size: 16px;
+    width: 60px;
     display: inline-block;
+    border-left: 2px solid #83BAE2;
+    text-align: center; }
+
+.name {
+  padding-left: 4px; }
+  .name p {
     margin-top: 5px; }
 
-/*is this a correct way to nest? Jake says yes*/
-.maincontainer {
-  width: 100%;
-  margin-bottom: -5px; }
-
-
-
-.blue {
-  color: #83BAE2;
-  width: 325px; }
-
-.pink {
-  width: 325px; }
-
-.orange {
-  width: 325px; }
+.price {
+  text-align: right;
+  padding-right: 4px; }
+  .price p {
+    margin-top: 5px; }
 
 img {
-  height: 200px;
-  width: 200px;
+  height: 50%;
+  width: 50%;
   margin: auto;
   display: block; }
 
-.midcontainer {
-  width: 329px;
-  display: inline-block; }
-
-.box {
-  color: #83BAE2;
-  display: inline-block;
-  border-left: 2px solid #83BAE2;
-  border-bottom: 2px solid #83BAE2;
-  box-sizing: border-box;
-  font-size: 20px;
-  padding-top: 5px; }
-
-.arrow {
-  width: 66px;
-  height: 40px;
-  margin-right: -4px;
-  text-align: center; }
-
-.arrow:hover {
+.box:hover {
   background-color: #83BAE2;
   color: white; }
 
-.heart {
-  width: 66px;
-  height: 40px;
-  margin-right: -4px;
-  text-align: center; }
+.green {
+  height: 20px;
+  width: 20px;
+  background-color: #8BB992; }
 
-.heart:hover {
+.blue {
   background-color: #83BAE2;
-  color: white; }
+  height: 20px;
+  width: 20px; }
 
-.size {
-  width: 66px;
-  height: 40px;
-  margin-right: -4px;
-  text-align: center; }
+.pink {
+  height: 20px;
+  width: 20px;
+  background-color: #D482AA; }
 
-.size:hover {
-  background-color: #83BAE2;
-  color: white; }
-
-.size.dropdown {
-  position: relative;
-  display: inline-block; }
-
-.color {
-  width: 66px;
-  height: 40px;
-  margin-right: -4px;
-  text-align: center; }
-
-.color:hover {
-  background-color: #83BAE2;
-  color: white; }
-
-.cart {
-  width: 68px;
-  height: 40px;
-  margin-left: -4px;
-  border-right: 2px solid #83BAE2;
-  text-align: center; }
-
-.cart:hover {
-  background-color: #83BAE2;
-  color: white; }
+.orange {
+  height: 20px;
+  width: 20px;
+  background-color: #DBB07C; }
 
 .size-box-dropdown {
   position: relative;
@@ -192,53 +143,3 @@ img {
   padding-left: 0px;
   padding-right: 5px;
   display: inline-block; }
-
-.color-box-dropdown {
-  position: relative;
-  display: inline-block; }
-
-.color-box-dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: white;
-  border: 2px solid #83BAE2;
-  color: #83BAE2;
-  min-width: 10px;
-  text-align: center;
-  z-index: 1;
-  cursor: pointer;
-  align: center; }
-
-.size-box-dropdown:hover .size-box-dropdown-content {
-  display: block;
-  cursor: pointer;
-  bottom: 100%;
-  text-align: center;
-  width: 64px; }
-
-/*.blue {
-  background-color:#83BAE2;
-  height:20px;
-  width:20px;
-}
-
-.pink {
-  height:20px;
-  width:20px;
-  background-color:#D482AA
-}
-
-.orange {
-  height:20px;
-  width:20px;
-  background-color:#DBB07C
-}
-
-.green {
-  height:20px;
-  width:20px;
-  background-color:#8BB992
-}*/
-@media only screen and (max-width: 990px) {
-  .column {
-    display: block; } }

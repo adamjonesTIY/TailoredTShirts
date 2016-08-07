@@ -1,16 +1,15 @@
-$primary-color:#83BAE2;
-$primary-font-family: 'open sans' sans-serif;
+$primaryColor:#83BAE2;
+$primaryFontFamily: 'open sans' sans-serif;
 
 @mixin original {
-	color: $primary-color;
+	color: $primaryColor;
 }
 
 body {
 	@include original;
-	color:$primary-color;
-	font-family: $primary-font-family;
+	color:$primaryColor;
+	font-family: $primaryFontFamily;
 }
-/*the above is my variable in SCSS/Sass. Jake says simple but good*/
 
 .title {
 	text-align: left;
