@@ -7,7 +7,7 @@ body {
 }
 
 .shirt {
-  width: 32%;
+  //width: 32%;
   display: inline-block;
   color:  $primaryColor; 
 }
@@ -18,19 +18,21 @@ body {
 
 .icons {
 	width: 100%;
+  padding:0px;
 	display:inline-block;
 	margin:0px auto;
 	border-top:2px solid $primaryColor;
 	border-bottom:2px solid $primaryColor;
-	.box {
+	.icon {
 		font-size:16px;
-		width:60px;
+		width:19%;
 		display:inline-block;
 		border-left:2px solid $primaryColor;
 		text-align: center;
 		
 	}
 }
+
 
 .name {
 	padding-left:4px;
